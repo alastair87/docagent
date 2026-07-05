@@ -6,7 +6,7 @@ from typing import Any
 
 from pydantic import BaseModel
 
-from autoscribe.models import AgentOutput, Chunk, ClassificationResult, Document, PipelineRun
+from docagent.models import AgentOutput, Chunk, ClassificationResult, Document, PipelineRun
 
 
 class RunStore:

@@ -7,7 +7,7 @@ from typing import Any
 
 from dotenv import load_dotenv
 
-from autoscribe.models import AppConfig
+from docagent.models import AppConfig
 
 
 def load_config(config_path: Path | None = None, overrides: dict[str, Any] | None = None) -> AppConfig:
@@ -17,12 +17,12 @@ def load_config(config_path: Path | None = None, overrides: dict[str, Any] | Non
         data.update(json.loads(config_path.read_text(encoding="utf-8")))
 
     env_map = {
-        "AUTOSCRIBE_BACKEND": "llm_backend",
-        "AUTOSCRIBE_MODEL": "model",
-        "AUTOSCRIBE_BASE_URL": "openai_base_url",
-        "AUTOSCRIBE_DATA_DIR": "data_dir",
-        "AUTOSCRIBE_JSON_DECODING_MODE": "json_decoding_mode",
-        "AUTOSCRIBE_JSON_GRAMMAR": "json_grammar",
+        "DOCAGENT_BACKEND": "llm_backend",
+        "DOCAGENT_MODEL": "model",
+        "DOCAGENT_BASE_URL": "openai_base_url",
+        "DOCAGENT_DATA_DIR": "data_dir",
+        "DOCAGENT_JSON_DECODING_MODE": "json_decoding_mode",
+        "DOCAGENT_JSON_GRAMMAR": "json_grammar",
     }
     for env_name, key in env_map.items():
         value = os.getenv(env_name)

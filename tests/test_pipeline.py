@@ -3,13 +3,13 @@ from pathlib import Path
 
 from typer.testing import CliRunner
 
-from autoscribe.backends import MockBackend
-from autoscribe.config import load_config
-from autoscribe.input import load_document
-from autoscribe.orchestrator import Orchestrator
-from autoscribe.registry import select_pipeline
-from autoscribe.storage import RunStore
-from autoscribe.cli import app
+from docagent.backends import MockBackend
+from docagent.config import load_config
+from docagent.input import load_document
+from docagent.orchestrator import Orchestrator
+from docagent.registry import select_pipeline
+from docagent.storage import RunStore
+from docagent.cli import app
 
 
 def test_low_confidence_selects_generic_pipeline():

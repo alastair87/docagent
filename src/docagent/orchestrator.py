@@ -4,13 +4,13 @@ from collections.abc import Callable
 from datetime import datetime, timezone
 from uuid import uuid4
 
-from autoscribe.agents import AgentRunner, classify_document
-from autoscribe.backends import LLMBackend
-from autoscribe.chunking import chunk_document
-from autoscribe.formatting import build_outputs
-from autoscribe.models import AgentInput, AppConfig, DocumentType, PipelineRun
-from autoscribe.registry import select_pipeline
-from autoscribe.storage import RunStore
+from docagent.agents import AgentRunner, classify_document
+from docagent.backends import LLMBackend
+from docagent.chunking import chunk_document
+from docagent.formatting import build_outputs
+from docagent.models import AgentInput, AppConfig, DocumentType, PipelineRun
+from docagent.registry import select_pipeline
+from docagent.storage import RunStore
 
 
 class Orchestrator:

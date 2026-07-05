@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import json
 
-from autoscribe.agents import classify_document
-from autoscribe.models import AppConfig, Document, DocumentMetadata
+from docagent.agents import classify_document
+from docagent.models import AppConfig, Document, DocumentMetadata
 
 
 def test_classify_document_accepts_string_secondary_types():

@@ -5,8 +5,8 @@ import time
 from abc import ABC, abstractmethod
 from typing import Any
 
-from autoscribe.errors import BackendError
-from autoscribe.models import AppConfig, DocumentType
+from docagent.errors import BackendError
+from docagent.models import AppConfig, DocumentType
 
 
 GENERIC_JSON_GRAMMAR = r'''

@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from autoscribe.models import PipelineDefinition
+from docagent.models import PipelineDefinition
 
 
 CLASSIFIER_PROMPT_VERSION = "0.1.0"

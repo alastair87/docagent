@@ -1,8 +1,8 @@
 from __future__ import annotations
 
 
-class AutoscribeError(Exception):
-    code = "autoscribe_error"
+class DocAgentError(Exception):
+    code = "docagent_error"
 
     def __init__(self, message: str, suggested_actions: list[str] | None = None):
         super().__init__(message)
@@ -17,17 +17,17 @@ class AutoscribeError(Exception):
         }
 
 
-class InputError(AutoscribeError):
+class InputError(DocAgentError):
     code = "input_error"
 
 
-class ClassificationError(AutoscribeError):
+class ClassificationError(DocAgentError):
     code = "classification_error"
 
 
-class BackendError(AutoscribeError):
+class BackendError(DocAgentError):
     code = "llm_backend_error"
 
 
-class PipelineError(AutoscribeError):
+class PipelineError(DocAgentError):
     code = "pipeline_error"

@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from autoscribe.formatting import _section_content, build_outputs
-from autoscribe.models import AgentOutput, AppConfig, ClassificationResult, Document, PipelineDefinition, PipelineRun, SourceReference
+from docagent.formatting import _section_content, build_outputs
+from docagent.models import AgentOutput, AppConfig, ClassificationResult, Document, PipelineDefinition, PipelineRun, SourceReference
 
 
 def test_section_content_does_not_repeat_same_summary_across_all_sections():

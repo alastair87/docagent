@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from autoscribe.models import Chunk, Document
+from docagent.models import Chunk, Document
 
 
 def estimate_tokens(text: str) -> int:
