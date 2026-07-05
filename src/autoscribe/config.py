@@ -21,6 +21,8 @@ def load_config(config_path: Path | None = None, overrides: dict[str, Any] | Non
         "AUTOSCRIBE_MODEL": "model",
         "AUTOSCRIBE_BASE_URL": "openai_base_url",
         "AUTOSCRIBE_DATA_DIR": "data_dir",
+        "AUTOSCRIBE_JSON_DECODING_MODE": "json_decoding_mode",
+        "AUTOSCRIBE_JSON_GRAMMAR": "json_grammar",
     }
     for env_name, key in env_map.items():
         value = os.getenv(env_name)

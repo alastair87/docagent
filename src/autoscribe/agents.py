@@ -30,6 +30,7 @@ def classify_document(
     )
     try:
         data = parse_json_response(raw)
+        data = _normalise_classification_data(data)
         result = ClassificationResult(**data)
     except (BackendError, ValidationError, ValueError) as exc:
         raise ClassificationError(
@@ -107,3 +108,16 @@ chunks:
 
 def _object_or_empty(value: Any) -> dict[str, Any]:
     return value if isinstance(value, dict) else {}
+
+
+def _normalise_classification_data(data: dict[str, Any]) -> dict[str, Any]:
+    secondary_types = data.get("secondary_types")
+    if isinstance(secondary_types, list):
+        normalised = []
+        for item in secondary_types:
+            if isinstance(item, str):
+                normalised.append({"document_type": item, "confidence": 0.0})
+            else:
+                normalised.append(item)
+        data["secondary_types"] = normalised
+    return data

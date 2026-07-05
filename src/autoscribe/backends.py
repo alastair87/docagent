@@ -9,6 +9,18 @@ from autoscribe.errors import BackendError
 from autoscribe.models import AppConfig, DocumentType
 
 
+GENERIC_JSON_GRAMMAR = r'''
+root ::= object
+value ::= object | array | string | number | ("true" | "false" | "null")
+object ::= "{" ws (string ws ":" ws value (ws "," ws string ws ":" ws value)*)? ws "}"
+array ::= "[" ws (value (ws "," ws value)*)? ws "]"
+string ::= "\"" chars "\""
+chars ::= ([^"\\] | "\\" (["\\/bfnrt] | "u" [0-9a-fA-F] [0-9a-fA-F] [0-9a-fA-F] [0-9a-fA-F]))*
+number ::= "-"? ("0" | [1-9] [0-9]*) ("." [0-9]+)? ([eE] [-+]? [0-9]+)?
+ws ::= [ \t\n\r]*
+'''.strip()
+
+
 class LLMBackend(ABC):
     @abstractmethod
     def complete(
@@ -49,13 +61,13 @@ class OpenAICompatibleBackend(LLMBackend):
             "timeout": timeout or self.config.timeout_seconds,
         }
         if schema is not None:
-            request["response_format"] = {"type": "json_object"}
+            self._apply_json_decoding(request)
 
         last_error: Exception | None = None
         for attempt in range(self.config.max_retries + 1):
             try:
                 response = self.client.chat.completions.create(**request)
-                content = response.choices[0].message.content
+                content = _extract_message_content(response)
                 if not content:
                     raise BackendError("LLM returned an empty response.")
                 return content
@@ -64,6 +76,13 @@ class OpenAICompatibleBackend(LLMBackend):
                 if attempt < self.config.max_retries:
                     time.sleep(0.5 * (attempt + 1))
         raise BackendError(f"LLM request failed: {last_error}")
+
+    def _apply_json_decoding(self, request: dict[str, Any]) -> None:
+        mode = self.config.json_decoding_mode
+        if mode in {"grammar", "both"}:
+            request.setdefault("extra_body", {})["grammar"] = self.config.json_grammar or GENERIC_JSON_GRAMMAR
+        if mode in {"response_format", "both"}:
+            request["response_format"] = {"type": "json_object"}
 
 
 class MockBackend(LLMBackend):
@@ -120,6 +139,17 @@ def make_backend(config: AppConfig) -> LLMBackend:
     if config.llm_backend == "mock":
         return MockBackend()
     return OpenAICompatibleBackend(config)
+
+
+def _extract_message_content(response: Any) -> str | None:
+    message = response.choices[0].message
+    content = getattr(message, "content", None)
+    if content:
+        return content
+    reasoning_content = getattr(message, "reasoning_content", None)
+    if reasoning_content:
+        return reasoning_content
+    return None
 
 
 def parse_json_response(raw: str) -> dict[str, Any]:

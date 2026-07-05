@@ -124,6 +124,8 @@ class AppConfig(BaseModel):
     classification_model: str | None = None
     summarisation_model: str | None = None
     openai_base_url: str | None = None
+    json_decoding_mode: Literal["response_format", "grammar", "both", "off"] = "grammar"
+    json_grammar: str | None = None
     max_context_tokens: int = 32768
     chunk_size_tokens: int = 3000
     chunk_overlap_tokens: int = 250

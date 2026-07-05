@@ -35,16 +35,14 @@ def build_outputs(
         "pipeline_used": pipeline.pipeline_id,
         "summary": {
             "short": _first_summary(agent_outputs),
-            "detailed": "\n\n".join(output.summary for output in agent_outputs if output.summary),
+            "detailed": "\n\n".join(_unique_nonempty(output.summary for output in agent_outputs)),
         },
         "sections": sections,
         "key_claims": _collect_key_points(agent_outputs),
         "evidence": [],
         "limitations": sections.get("Limitations", []),
         "warnings": warnings,
-        "source_references": [
-            ref.model_dump(mode="json") for output in agent_outputs for ref in output.source_references
-        ],
+        "source_references": [ref.model_dump(mode="json") for ref in _unique_source_references(agent_outputs)],
         "metadata": document.metadata.model_dump(mode="json"),
         "reproducibility": {
             "input_hash": document.input_hash,
@@ -106,7 +104,7 @@ def _markdown(
         lines.append("")
 
     lines.extend(["## Source References", ""])
-    refs = [ref for output in agent_outputs for ref in output.source_references]
+    refs = _unique_source_references(agent_outputs)
     if refs:
         for ref in refs[:20]:
             suffix = f" chars {ref.char_start}-{ref.char_end}" if ref.char_start is not None else ""
@@ -119,18 +117,23 @@ def _markdown(
 
 
 def _section_content(pipeline: PipelineDefinition, outputs: list[AgentOutput]) -> dict[str, list[str]]:
-    joined = [output.summary for output in outputs if output.summary]
+    joined = _unique_nonempty(output.summary for output in outputs)
     key_points = _collect_key_points(outputs)
     uncertainties = _collect_uncertainties(outputs)
     sections: dict[str, list[str]] = {}
     for section in pipeline.required_sections:
         lower = section.lower()
-        if "uncert" in lower or "ambigu" in lower or "critique" in lower or "risk" in lower:
-            sections[section] = uncertainties or joined[:2]
+        section_values = _collect_section_values(section, outputs)
+        if section_values:
+            sections[section] = section_values
+        elif "uncert" in lower or "ambigu" in lower or "critique" in lower or "risk" in lower or "limitation" in lower:
+            sections[section] = uncertainties or ["No specific caveats extracted for this section."]
         elif "claim" in lower or "finding" in lower or "topic" in lower or "question" in lower:
-            sections[section] = key_points or joined[:2]
-        else:
+            sections[section] = key_points or ["No section-specific claims extracted."]
+        elif "overall" in lower or "assessment" in lower:
             sections[section] = joined[:2] or ["No summary available."]
+        else:
+            sections[section] = ["No specific information extracted for this section."]
     return sections
 
 
@@ -150,6 +153,85 @@ def _collect_uncertainties(outputs: list[AgentOutput]) -> list[str]:
         if isinstance(raw, list):
             items.extend(str(item) for item in raw if item)
     return items
+
+
+def _collect_section_values(section: str, outputs: list[AgentOutput]) -> list[str]:
+    values: list[str] = []
+    wanted = _normalise_key(section)
+    for output in outputs:
+        structured = output.structured_data
+        for key, value in structured.items():
+            if _normalise_key(str(key)) == wanted:
+                values.extend(_coerce_section_values(value))
+
+        sections = structured.get("sections")
+        if isinstance(sections, dict):
+            for key, value in sections.items():
+                if _normalise_key(str(key)) == wanted:
+                    values.extend(_coerce_section_values(value))
+        elif isinstance(sections, list):
+            for item in sections:
+                if not isinstance(item, dict):
+                    continue
+                title = item.get("title") or item.get("section") or item.get("heading")
+                if title and _normalise_key(str(title)) == wanted:
+                    values.extend(_coerce_section_values(item.get("content") or item.get("summary") or item.get("value")))
+
+    return _unique_nonempty(values)
+
+
+def _coerce_section_values(value: Any) -> list[str]:
+    if value is None:
+        return []
+    if isinstance(value, str):
+        return [value]
+    if isinstance(value, list):
+        values: list[str] = []
+        for item in value:
+            if isinstance(item, str):
+                values.append(item)
+            elif isinstance(item, dict):
+                content = item.get("content") or item.get("summary") or item.get("value") or item.get("text")
+                if content is not None:
+                    values.append(str(content))
+            elif item is not None:
+                values.append(str(item))
+        return values
+    if isinstance(value, dict):
+        content = value.get("content") or value.get("summary") or value.get("value") or value.get("text")
+        return [str(content)] if content is not None else []
+    return [str(value)]
+
+
+def _normalise_key(value: str) -> str:
+    return "".join(character for character in value.lower() if character.isalnum())
+
+
+def _unique_nonempty(values) -> list[str]:
+    unique: list[str] = []
+    seen: set[str] = set()
+    for value in values:
+        if not value:
+            continue
+        text = str(value).strip()
+        if not text or text in seen:
+            continue
+        seen.add(text)
+        unique.append(text)
+    return unique
+
+
+def _unique_source_references(outputs: list[AgentOutput]):
+    refs = []
+    seen = set()
+    for output in outputs:
+        for ref in output.source_references:
+            key = (ref.chunk_id, ref.char_start, ref.char_end, ref.section, ref.speaker, ref.page)
+            if key in seen:
+                continue
+            seen.add(key)
+            refs.append(ref)
+    return refs
 
 
 def _first_summary(outputs: list[AgentOutput]) -> str:
