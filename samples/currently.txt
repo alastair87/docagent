@@ -1,0 +1,461 @@
+
+[00:00:00.000 --> 00:00:04.000]   "I did have a student who was one of the strongest students in my class."
+[00:00:04.000 --> 00:00:07.760]   This is Robert Topinka, a media lecturer at Birkbeck University.
+[00:00:07.760 --> 00:00:11.760]   "They actually did the reading, were very engaged, had lots of ideas."
+[00:00:11.760 --> 00:00:15.680]   As a working academic, I know the feeling of having a student whose work you are
+[00:00:15.680 --> 00:00:19.840]   genuinely excited to read. For Robert, this was that student.
+[00:00:19.840 --> 00:00:24.400]   "They were a good writer, very interested in theory, and they wrote a really interesting paper."
+[00:00:24.400 --> 00:00:28.160]   As he sat down with their latest offering, he found it typically interesting,
+[00:00:28.160 --> 00:00:33.680]   but he had one final step to make, a newly necessary check using AI detection software.
+[00:00:34.720 --> 00:00:39.680]   "100% AI. So I was really stuck because I didn't fully trust the software,
+[00:00:39.680 --> 00:00:42.240]   but 100% AI feels pretty convincing."
+[00:00:43.120 --> 00:00:48.240]   This was a wake-up call, a whole new frontier in what we don't know about our students.
+[00:00:48.880 --> 00:00:52.720]   "There are students who are certainly using AI, maybe more than we know."
+[00:00:52.720 --> 00:00:58.960]   This, in 2023, not long after the launch of ChatGPT, was a taste of the frontline
+[00:00:58.960 --> 00:01:01.600]   in a battle for the soul of university education.
+[00:01:02.640 --> 00:01:07.040]   Now, that battle has accelerated, and accelerated at blistering pace.
+[00:01:07.680 --> 00:01:11.600]   According to the most recent survey from the Higher Education Policy Institute,
+[00:01:11.600 --> 00:01:16.320]   94% of students use AI to help informally assess coursework,
+[00:01:16.320 --> 00:01:20.320]   and 12% admit to including AI-generated text directly.
+[00:01:21.520 --> 00:01:22.800]   The future is here.
+[00:01:23.520 --> 00:01:26.880]   I'm Catherine Clare Higgins, and this is the Artificial University.
+[00:01:32.480 --> 00:01:35.440]   There's an old cliché that academics are just students
+[00:01:35.440 --> 00:01:38.560]   who loved university so much that they refused to leave.
+[00:01:38.560 --> 00:01:41.520]   And to that, I say, guilty as charged.
+[00:01:42.800 --> 00:01:45.920]   Universities are, to me, rare and special places.
+[00:01:46.480 --> 00:01:50.400]   But my own relatively carefree days of study for its own sake
+[00:01:50.400 --> 00:01:52.720]   now feel like a very long time ago.
+[00:01:52.720 --> 00:01:55.920]   And the outlook is quite different for the students in my classroom.
+[00:01:56.800 --> 00:01:59.600]   They've taken on enormous debts to be there.
+[00:01:59.600 --> 00:02:01.680]   And what they're told they're getting in return
+[00:02:01.680 --> 00:02:05.280]   is measured in projected future earnings, pounds and pence.
+[00:02:06.080 --> 00:02:09.200]   Now, rather than coming to my office to talk about their ideas,
+[00:02:09.200 --> 00:02:13.600]   my students mostly come to ask about work and internships,
+[00:02:13.600 --> 00:02:16.560]   about getting better grades or their anxieties about the future.
+[00:02:17.280 --> 00:02:20.960]   Almost all of them are extremely critical of generative AI tools
+[00:02:20.960 --> 00:02:25.120]   like Claude or ChatGPT, but almost all of them use them too.
+[00:02:27.600 --> 00:02:31.440]   I wanted to talk to some students specifically about university life
+[00:02:31.440 --> 00:02:34.320]   in the AI era, so I hopped on a train.
+[00:02:38.800 --> 00:02:42.400]   At Erlem Hall, a beautiful 17th-century country house
+[00:02:42.400 --> 00:02:46.320]   on the grounds of the University of East Anglia, I met a group of students.
+[00:02:46.320 --> 00:02:50.960]   Recruited for me by the good people of Livewire, UEA's student radio station.
+[00:02:51.600 --> 00:02:55.360]   I sat the seven students around in a classic horseshoe shape in front of me,
+[00:02:55.360 --> 00:02:56.560]   just like a seminar.
+[00:02:56.560 --> 00:02:58.400]   Familiar for me, familiar for them.
+[00:02:59.360 --> 00:03:04.560]   And if that feels a bit academic for Radio 4, well, I'm an academic, so me.
+[00:03:04.560 --> 00:03:07.360]   AI is pretty rampant where I am.
+[00:03:07.360 --> 00:03:12.160]   I think the major use that students use is LLMs, so just like ChatGPT,
+[00:03:12.880 --> 00:03:16.000]   general just software to research.
+[00:03:16.000 --> 00:03:19.600]   I'm very hardline anti-AI, a lot of my course mates are.
+[00:03:19.600 --> 00:03:22.400]   So if they're using AI, they're hiding it very well.
+[00:03:22.400 --> 00:03:25.920]   A month ago, it was like right in the throat, it's kind of my final assignment.
+[00:03:25.920 --> 00:03:30.000]   I heard two girls talking about, I assume what was like a final assignment.
+[00:03:30.000 --> 00:03:32.960]   One of them said, "Oh no, I'm looking at my bibliography,
+[00:03:32.960 --> 00:03:35.520]   I've realised that it's got the ChatGPT endings on my links,
+[00:03:35.520 --> 00:03:36.800]   I'd better get rid of those."
+[00:03:36.800 --> 00:03:42.000]   I think with computer science and like tech, AI is completely just taken over.
+[00:03:42.640 --> 00:03:46.160]   You kind of can get left behind if you don't use AI.
+[00:03:46.160 --> 00:03:48.640]   It can be really good for productivity though.
+[00:03:48.640 --> 00:03:51.280]   I've recently been diagnosed with severe ADHD
+[00:03:51.280 --> 00:03:57.040]   and it used to take me so long to even write the plan for an essay.
+[00:03:57.040 --> 00:04:00.400]   So I do actually think in a lot of ways it is really helpful.
+[00:04:00.400 --> 00:04:03.840]   Elsie McDowell, a recent graduate from Cambridge.
+[00:04:03.840 --> 00:04:05.120]   AI terrifies me.
+[00:04:05.120 --> 00:04:07.760]   I think I'm worried about the environmental impact of AI.
+[00:04:07.760 --> 00:04:10.320]   I'm worried about the impact that's going to have culturally
+[00:04:10.320 --> 00:04:13.760]   and I sort of feel like if I can avoid using it, I should.
+[00:04:13.760 --> 00:04:16.880]   For humanities courses, there's more of a sense that if you're using AI,
+[00:04:16.880 --> 00:04:19.600]   you're going to be using it to say generate an entire piece of coursework,
+[00:04:19.600 --> 00:04:21.440]   generate an entire essay and that would,
+[00:04:21.440 --> 00:04:25.280]   that feels like that's kind of threatening the very point of like what you're doing.
+[00:04:25.280 --> 00:04:26.880]   I think it is quite clear cut,
+[00:04:26.880 --> 00:04:29.680]   but I don't think it's communicated as well as it could be.
+[00:04:29.680 --> 00:04:34.800]   Sam Illingworth is a professor of critical AI literacy at Edinburgh Napier University.
+[00:04:34.800 --> 00:04:38.800]   AI tools can be extremely useful in a classroom environment,
+[00:04:38.800 --> 00:04:40.480]   but if they're used incorrectly,
+[00:04:40.480 --> 00:04:44.080]   they can lead to something that we might term cognitive offloading.
+[00:04:44.080 --> 00:04:48.400]   So this idea that students don't actually get to learn how to do something themselves.
+[00:04:48.400 --> 00:04:49.600]   For many of my colleagues,
+[00:04:49.600 --> 00:04:54.800]   they aren't experiencing this as something tentative on the border of exciting and uncertain.
+[00:04:54.800 --> 00:04:57.760]   It has already become a major part of their teaching lives
+[00:04:57.760 --> 00:05:00.400]   with almost uniformly disastrous consequences.
+[00:05:01.280 --> 00:05:03.920]   Professor Shakuntala Banerjee is a friend of mine
+[00:05:03.920 --> 00:05:08.000]   and she's one of my own former teachers at the London School of Economics and Political Science.
+[00:05:08.640 --> 00:05:12.880]   I met her for a coffee to discuss how the rise of AI has affected her own working life.
+[00:05:13.680 --> 00:05:15.920]   I would say that this year alone,
+[00:05:15.920 --> 00:05:19.040]   my marking workload has doubled, doubled.
+[00:05:19.040 --> 00:05:23.440]   The time and energy and emotional drain has doubled.
+[00:05:23.440 --> 00:05:29.520]   So a course that previously used to be taught just with one long essay or with an exam,
+[00:05:29.520 --> 00:05:31.040]   which is take home exam,
+[00:05:31.040 --> 00:05:35.600]   is now has now got a presentation element which has to be marked in person by two people.
+[00:05:36.160 --> 00:05:39.600]   And that will take hours and hours of your life.
+[00:05:39.600 --> 00:05:41.440]   And then on the other end,
+[00:05:41.440 --> 00:05:47.120]   the essays are taking much, much, much longer to read because I'm mistrustful.
+[00:05:47.120 --> 00:05:51.520]   You have to be educating them about AI in the context of the classroom.
+[00:05:51.520 --> 00:05:54.480]   You then also have to be reading for AI when you read the scripts.
+[00:05:54.480 --> 00:05:56.240]   You have to be marking in certain ways.
+[00:05:56.240 --> 00:05:57.520]   It's immeasurable.
+[00:05:57.520 --> 00:05:58.880]   It's everything for me.
+[00:05:58.880 --> 00:06:00.640]   I've been a teacher for a very long time.
+[00:06:00.640 --> 00:06:02.880]   I started teaching in 1993.
+[00:06:02.880 --> 00:06:04.080]   I was teaching English.
+[00:06:04.080 --> 00:06:06.800]   We had something called the SPAG mark back then.
+[00:06:06.800 --> 00:06:07.520]   The SPAG mark?
+[00:06:07.520 --> 00:06:08.480]   Yes, the SPAG mark.
+[00:06:08.480 --> 00:06:10.640]   That was spelling, grammar, punctuation.
+[00:06:12.080 --> 00:06:17.840]   And it was only five marks out of 100 for SPAG.
+[00:06:17.840 --> 00:06:20.160]   Writing is about the ideas.
+[00:06:20.160 --> 00:06:21.360]   It's about the flow.
+[00:06:21.360 --> 00:06:22.800]   It's about the connectivity.
+[00:06:22.800 --> 00:06:27.840]   It's about your digestion of the sort of knowledge bases that you're coming from.
+[00:06:27.840 --> 00:06:31.600]   Somebody can make a perfectly good argument and spell terribly.
+[00:06:31.600 --> 00:06:32.320]   Yeah, like me.
+[00:06:34.080 --> 00:06:36.960]   Exactly.
+[00:06:37.680 --> 00:06:42.000]   What I've noticed is that the hype around Gen AI,
+[00:06:42.000 --> 00:06:44.960]   about how it makes you so much of a better writer,
+[00:06:44.960 --> 00:06:48.720]   reverses that equation of 5% and 95%.
+[00:06:49.520 --> 00:06:50.880]   Forget hallucinations.
+[00:06:50.880 --> 00:06:52.800]   Hallucinations are what we hear about most.
+[00:06:53.680 --> 00:06:54.720]   And I've seen those.
+[00:06:54.720 --> 00:06:58.640]   I've seen those in research output by people writing for big journals.
+[00:06:58.640 --> 00:06:59.920]   I know, me too.
+[00:07:00.880 --> 00:07:04.720]   But the most egregious thing, I think, is this complete
+[00:07:04.720 --> 00:07:07.120]   erasure of the students' trust in themselves.
+[00:07:08.560 --> 00:07:12.400]   My creeping frustrations with AI reflect my own philosophy as a teacher.
+[00:07:12.960 --> 00:07:16.160]   I see my role as to help my students become better writers,
+[00:07:16.160 --> 00:07:17.680]   more critical thinkers,
+[00:07:17.680 --> 00:07:21.680]   to absorb and spend time sitting and wrestling with new challenging ideas.
+[00:07:22.400 --> 00:07:25.200]   When a chatbot helps a student skip those steps,
+[00:07:25.200 --> 00:07:28.320]   and my curriculum becomes a prompt for a polished essay,
+[00:07:28.880 --> 00:07:32.000]   it's obvious to me that something is being missed and lost.
+[00:07:32.640 --> 00:07:36.800]   Many industries are embracing AI in the name of efficiency.
+[00:07:36.800 --> 00:07:40.320]   It offers a shorter and often cheaper pathway to the same product.
+[00:07:40.960 --> 00:07:44.000]   But in education, the process is the point.
+[00:07:44.640 --> 00:07:47.840]   Students who overuse generative AI are the ones missing out,
+[00:07:47.840 --> 00:07:49.920]   and they aren't making that decision in a vacuum.
+[00:07:50.480 --> 00:07:53.040]   The rise of these tools is happening against a backdrop
+[00:07:53.040 --> 00:07:55.360]   of much wider pressures on students.
+[00:07:56.000 --> 00:07:59.680]   Elsie McDowell published an article about students in AI last year.
+[00:08:00.320 --> 00:08:03.200]   It was a defence of the students who turn to AI
+[00:08:03.200 --> 00:08:05.760]   to solve problems that are being widely ignored.
+[00:08:05.760 --> 00:08:07.520]   The thing is, if you've got more people than ever
+[00:08:07.520 --> 00:08:10.560]   who are struggling to financially support themselves through university,
+[00:08:10.560 --> 00:08:13.120]   because the maintenance loans haven't kept increasing with inflation,
+[00:08:13.120 --> 00:08:15.920]   and because we're taking on more debt than ever before,
+[00:08:15.920 --> 00:08:20.240]   and more people than ever before are working part-time along their studies to fund them,
+[00:08:20.240 --> 00:08:22.000]   you've just got less time to be a student.
+[00:08:22.000 --> 00:08:25.360]   Students would use AI regardless of the financial pressures on students right now,
+[00:08:25.360 --> 00:08:27.760]   but I think we can't completely separate the fact
+[00:08:27.760 --> 00:08:30.320]   that generative AI has kind of come onto the scene
+[00:08:30.320 --> 00:08:33.440]   at a time where students have less money than ever before and less time.
+[00:08:34.000 --> 00:08:38.720]   The Higher Education Policy Institute does an annual survey of thousands of students,
+[00:08:38.720 --> 00:08:40.480]   a barometer for their experience.
+[00:08:41.040 --> 00:08:45.920]   Ten years ago, two-thirds of students took on no paid employment during their studies,
+[00:08:45.920 --> 00:08:47.760]   with a third working part-time.
+[00:08:48.480 --> 00:08:50.640]   Today, those figures have reversed.
+[00:08:50.640 --> 00:08:54.080]   65% of students also have a paid job.
+[00:08:54.080 --> 00:08:58.640]   Once their uni work is factored in, they're working 44 hours every week.
+[00:08:58.640 --> 00:09:00.880]   So the temptation is right there.
+[00:09:00.880 --> 00:09:04.800]   And the message that students are getting from the university is anything but clear.
+[00:09:04.800 --> 00:09:08.240]   What, to your sort of mind or from your impression,
+[00:09:08.240 --> 00:09:14.160]   are the dominant policy responses from universities to student AI use?
+[00:09:14.160 --> 00:09:17.040]   I'm laughing because there is no dominant AI policy use.
+[00:09:17.040 --> 00:09:18.000]   Sam Illingworth.
+[00:09:18.000 --> 00:09:23.440]   I looked at all of the available AI policies across UK institutes,
+[00:09:23.440 --> 00:09:28.080]   and probably the headline figure really is that only 60 odd percent
+[00:09:28.080 --> 00:09:30.160]   are actually even publicly available.
+[00:09:30.160 --> 00:09:33.360]   Now, the others are probably hidden behind an intranet
+[00:09:33.360 --> 00:09:35.360]   and actually are available to students on campus,
+[00:09:35.360 --> 00:09:37.040]   but that's no good if you're, for example,
+[00:09:37.040 --> 00:09:39.360]   a prospective student that wants to look at the university.
+[00:09:39.360 --> 00:09:44.000]   There's no centralised policy that could be adapted and adopted for each of the institutes,
+[00:09:44.000 --> 00:09:48.880]   which means it's very confusing for the staff and the students to even understand
+[00:09:49.680 --> 00:09:55.680]   how and why AI can be used in a certain way in a university environment.
+[00:09:56.320 --> 00:10:00.560]   The students that we spoke to at UEA had a gamut of experiences with this.
+[00:10:00.560 --> 00:10:06.160]   For prose fiction, one of my undergraduate professors put out a statement saying,
+[00:10:06.160 --> 00:10:10.160]   "We believe writing is for humans," and that was his stance.
+[00:10:10.720 --> 00:10:14.640]   AI cannot come up with new ideas.
+[00:10:14.640 --> 00:10:19.760]   It can only regurgitate basically the statistical average of what people
+[00:10:20.320 --> 00:10:22.400]   have already said, already written.
+[00:10:23.520 --> 00:10:28.080]   With my course specifically, we've been quite welcome to be using AI,
+[00:10:28.080 --> 00:10:32.080]   so we have in our assignment brief, have you used AI, yes or no,
+[00:10:32.080 --> 00:10:34.320]   and if you say yes, you just explain how you used it.
+[00:10:34.960 --> 00:10:38.960]   Even my latest assignment, we've been very much encouraged to use AI.
+[00:10:38.960 --> 00:10:46.480]   We had to create our essay titles using AI to generate something to analyse for psychology.
+[00:10:46.480 --> 00:10:47.520]   Did you like doing it that way?
+[00:10:47.520 --> 00:10:48.960]   Would you have preferred to do it differently?
+[00:10:49.680 --> 00:10:52.720]   I would have probably preferred to have something else prepared,
+[00:10:52.720 --> 00:10:57.440]   but at the same time, AI is not going away and we need to learn how to use it,
+[00:10:57.440 --> 00:11:00.800]   and it really helps organise your life and sort things out
+[00:11:00.800 --> 00:11:04.720]   and get things in boxes for you when your mind's a tip.
+[00:11:05.760 --> 00:11:09.840]   Right now, many universities are relying on AI detection software
+[00:11:09.840 --> 00:11:11.760]   to try to catch students red-handed.
+[00:11:12.320 --> 00:11:17.920]   I reached out to Turnitin, which sells its software to 16,000 universities worldwide,
+[00:11:17.920 --> 00:11:23.280]   originally as a plagiarism checker, but now as a tool that aims to spot AI use as well.
+[00:11:23.840 --> 00:11:26.640]   I spoke to their Chief Product Officer, Annie Ciacciatelli.
+[00:11:27.280 --> 00:11:33.040]   LLMs do have a statistical signature that we're able to detect pretty readily.
+[00:11:33.040 --> 00:11:37.040]   You also have bad actors, so there's a number of companies who've come in
+[00:11:37.040 --> 00:11:39.840]   and said, "Hey, can we make money on students?
+[00:11:39.840 --> 00:11:45.360]   We will help students try to hide the signature of AI."
+[00:11:45.360 --> 00:11:50.880]   And so those are called paraphrasers, they're called bypassers, they're called humanisers.
+[00:11:50.880 --> 00:11:53.280]   Can your software get around these humanisers?
+[00:11:54.080 --> 00:11:54.580]   Yes.
+[00:11:55.200 --> 00:11:58.640]   But while Annie was bullish about the results of Turnitin software,
+[00:11:58.640 --> 00:12:03.360]   even she was cautious that it should not be taken as a final or definitive finding.
+[00:12:03.360 --> 00:12:05.360]   I mean, I don't think anything's foolproof, right?
+[00:12:05.360 --> 00:12:11.040]   It's not perfect and requires the judgment of an educator to analyze
+[00:12:11.040 --> 00:12:16.800]   and take that as a piece of data that they can use to have a conversation with the student
+[00:12:16.800 --> 00:12:20.240]   and ask questions of the student if they think that the student didn't write it.
+[00:12:21.280 --> 00:12:25.520]   I know from my own experience that even with the best possible evidence,
+[00:12:25.520 --> 00:12:31.520]   definitive proofs like hallucinator bibliographies, the panic of that moment is such that many
+[00:12:31.520 --> 00:12:37.760]   students facing this kind of accusation feel like they have no choice but to deny, deny, deny,
+[00:12:37.760 --> 00:12:41.040]   and hope that the allegation proves unprovable.
+[00:12:41.840 --> 00:12:47.040]   At many universities, an AI dispute will end up in front of an academic misconduct panel.
+[00:12:47.040 --> 00:12:49.200]   The misconduct panels are very intense.
+[00:12:49.200 --> 00:12:51.440]   Robert Topinka from Birkbeck University.
+[00:12:51.440 --> 00:12:55.600]   Students are often angry or defensive, I think justifiably.
+[00:12:55.600 --> 00:12:59.120]   I mean, they're being accused of something really serious and the penalties are really high.
+[00:12:59.120 --> 00:13:01.120]   And then the other thing is you just don't have evidence,
+[00:13:01.120 --> 00:13:03.200]   like unless the student admits it, which does happen.
+[00:13:03.200 --> 00:13:07.360]   Sometimes students say, yeah, you know, I was, I didn't have time, so I used AI, sorry.
+[00:13:08.080 --> 00:13:10.320]   But often they don't, and maybe they didn't use it,
+[00:13:10.320 --> 00:13:13.200]   or maybe they used it in a way they thought was allowed and didn't quite understand.
+[00:13:14.000 --> 00:13:16.880]   And so it's very intense and you don't have good evidence either way.
+[00:13:17.440 --> 00:13:18.880]   And it just, it doesn't feel great.
+[00:13:18.880 --> 00:13:22.240]   It's terrible because your whole role as an educator is to be supportive of students.
+[00:13:22.240 --> 00:13:23.520]   So then when you have to be a cop,
+[00:13:24.240 --> 00:13:27.520]   it just goes against like the whole ethos of what a university should be.
+[00:13:27.520 --> 00:13:31.600]   In the best case scenario, these misconduct hearings can be a teachable moment.
+[00:13:31.600 --> 00:13:35.200]   They often think it makes sense to use it to make their writing sound better,
+[00:13:35.200 --> 00:13:39.120]   because despite what I say, students always think they're graded on how well they write,
+[00:13:39.120 --> 00:13:40.480]   how smooth it sounds.
+[00:13:40.480 --> 00:13:46.160]   I had one student who was a second language speaker and had a hundred percent AI score.
+[00:13:46.160 --> 00:13:49.520]   So we had a meeting with him and he had both drafts and he said,
+[00:13:49.520 --> 00:13:53.040]   here's my original in my native language and here's the AI version.
+[00:13:53.040 --> 00:13:55.280]   And that was actually a really cool teaching moment because we could show like,
+[00:13:55.280 --> 00:13:57.120]   actually you're more nuanced than the AI.
+[00:13:57.120 --> 00:14:00.080]   The AI is smoothing out the kind of complexities of your writing.
+[00:14:00.080 --> 00:14:03.920]   And on a surface level, it's smoother, but actually your ideas are better.
+[00:14:03.920 --> 00:14:07.040]   In the worst case scenario, this moment is the end,
+[00:14:07.040 --> 00:14:09.520]   one way or another, of a university career.
+[00:14:10.080 --> 00:14:14.400]   Me personally, I would say a big thing for my mental health,
+[00:14:14.400 --> 00:14:18.400]   something that really negatively affected me was AI, like checking.
+[00:14:19.120 --> 00:14:24.320]   I would relentlessly check on AI checkers knowing that they weren't accurate,
+[00:14:24.320 --> 00:14:29.680]   but just seeing a score of a hundred percent or 89% or something very high on the internet
+[00:14:29.680 --> 00:14:31.760]   would make me terrified to submit.
+[00:14:31.760 --> 00:14:35.840]   Mental health wise, the whole AI checking and seeing if you're going to falsely be accused
+[00:14:35.840 --> 00:14:40.800]   of using AI has really taken the joy out of writing assignments and doing things
+[00:14:40.800 --> 00:14:44.080]   because you don't know if your hard work is going to be reprimanded.
+[00:14:44.080 --> 00:14:46.000]   If you can prove that you've sort of done a plan,
+[00:14:46.000 --> 00:14:49.600]   and if you're able to explain it and show your ideas and where they come from.
+[00:14:49.600 --> 00:14:55.200]   I've noticed myself trying to have more of a long history on Google Docs
+[00:14:55.200 --> 00:14:58.560]   that is scalable to try and avoid that problem.
+[00:14:58.560 --> 00:15:02.000]   It sounds like this is quite a lot of self-regulation work.
+[00:15:03.280 --> 00:15:04.880]   I think there's a lot of thought.
+[00:15:04.880 --> 00:15:06.640]   It sounds stressful and tiring.
+[00:15:07.200 --> 00:15:10.800]   We have to step in where the infrastructure isn't there already yet.
+[00:15:10.800 --> 00:15:12.720]   Annie Cicciotelli from Turnitin.
+[00:15:12.720 --> 00:15:15.040]   And now we have agentic AI.
+[00:15:15.040 --> 00:15:19.360]   That's more of the new one of what if the student just programs about to write something
+[00:15:19.360 --> 00:15:22.240]   and it tells it to slow down, it tells it to make mistakes.
+[00:15:22.240 --> 00:15:24.560]   Almost doing it as if it were a person.
+[00:15:24.560 --> 00:15:28.560]   It's masquerading as a person through a web browser,
+[00:15:28.560 --> 00:15:32.320]   which is very different than just like a text-based large language model.
+[00:15:34.000 --> 00:15:35.920]   This is an AI arms race.
+[00:15:36.560 --> 00:15:40.640]   Of course, it's important to note that this is not how the companies selling these tools
+[00:15:40.640 --> 00:15:41.280]   see it at all.
+[00:15:41.920 --> 00:15:45.760]   We reached out to Anthropic, to OpenAI, and to Microsoft,
+[00:15:45.760 --> 00:15:49.360]   all of whom have AI products that they market to universities and students.
+[00:15:50.160 --> 00:15:53.440]   All three have official partnerships with UK universities.
+[00:15:53.440 --> 00:15:57.840]   Anthropic, the makers of Claude, have a guide online for students to use their products.
+[00:15:58.480 --> 00:16:02.160]   It does caution students to follow policies set by universities.
+[00:16:02.160 --> 00:16:06.640]   And it has a long list of suggested uses ranging from analyzing academic literature
+[00:16:06.640 --> 00:16:08.800]   through to creating study guides.
+[00:16:08.800 --> 00:16:14.080]   A Microsoft spokesperson described the universities working with them as "innovative"
+[00:16:14.080 --> 00:16:18.800]   and pointed to training they provide for "responsible" use of AI.
+[00:16:18.800 --> 00:16:21.040]   They also said that these universities
+[00:16:21.040 --> 00:16:24.880]   "are helping prepare students for an increasingly AI-enabled world
+[00:16:24.880 --> 00:16:28.800]   because they recognize that AI fluency will shape how the next generation
+[00:16:28.800 --> 00:16:30.960]   enters and succeeds in the workforce."
+[00:16:31.520 --> 00:16:33.200]   OpenAI told us
+[00:16:33.200 --> 00:16:36.160]   "Education is one of AI's most promising frontiers.
+[00:16:36.880 --> 00:16:40.320]   Students can use ChatGPT as a partner for studying,
+[00:16:40.320 --> 00:16:43.040]   writing and creativity, and career preparation.
+[00:16:44.080 --> 00:16:48.560]   Ensuring it is used effectively means equipping both students and educators
+[00:16:48.560 --> 00:16:52.000]   with clear training and support needed to integrate AI
+[00:16:52.000 --> 00:16:54.160]   into teaching and learning in productive ways."
+[00:16:54.800 --> 00:16:58.720]   It often feels like we can only ride, not shape, the AI wave.
+[00:16:59.440 --> 00:17:00.800]   But not everyone agrees.
+[00:17:01.600 --> 00:17:04.880]   There's one school of thought that says that to take a different path
+[00:17:04.880 --> 00:17:08.960]   than the one laid out by Big Tech, all you really need is a pen and a piece of paper.
+[00:17:10.720 --> 00:17:16.160]   Universities that rely heavily on coursework as the only form of assessment
+[00:17:16.160 --> 00:17:20.880]   basically do not stand a chance of getting to assess the student
+[00:17:21.600 --> 00:17:26.400]   in the most accurate and true way possible because of AI.
+[00:17:26.400 --> 00:17:30.800]   This is Edward Howell, lecturer in international relations at the University of Oxford.
+[00:17:30.800 --> 00:17:35.120]   I know that you're a very strong advocate for the idea of the in-person examination.
+[00:17:35.760 --> 00:17:36.720]   What's the case?
+[00:17:36.720 --> 00:17:40.160]   I think that what you learn is you learn how to think,
+[00:17:40.160 --> 00:17:44.000]   how to respond to unfamiliar questions that you are given.
+[00:17:44.000 --> 00:17:47.760]   You learn how to do so in a disciplined and timed manner,
+[00:17:47.760 --> 00:17:49.840]   and you learn how to organise your thoughts.
+[00:17:50.640 --> 00:17:55.200]   But among the academics I spoke to, this approach wasn't really popular,
+[00:17:55.200 --> 00:17:56.960]   even amongst AI sceptics.
+[00:17:57.760 --> 00:18:01.040]   I have to say, my assumption was that this more retro view
+[00:18:01.040 --> 00:18:03.760]   would feel behind the times for many modern students.
+[00:18:03.760 --> 00:18:08.320]   So I put it to the group that I met at UEA, and I was pretty surprised by their response.
+[00:18:12.960 --> 00:18:16.720]   I've had exams like that before and my hand really hurt at the end,
+[00:18:16.720 --> 00:18:19.600]   but I think it was a fair test of our learning.
+[00:18:20.560 --> 00:18:22.640]   And I'm curious that you think this is a great idea.
+[00:18:22.640 --> 00:18:23.440]   Yeah, absolutely.
+[00:18:23.440 --> 00:18:26.080]   I mean, because everyone's in the same playing field.
+[00:18:26.080 --> 00:18:28.560]   Does anyone think this would be a very bad idea?
+[00:18:28.560 --> 00:18:30.720]   Yeah, I disagree, not from an AI perspective,
+[00:18:30.720 --> 00:18:32.400]   but I just agree from a creative perspective,
+[00:18:32.400 --> 00:18:35.440]   because I think some courses aren't set up for that.
+[00:18:35.440 --> 00:18:40.000]   I just don't think that's a real test for going out into the working world.
+[00:18:40.000 --> 00:18:43.760]   We're never going to have to do something in an exam hall without a book.
+[00:18:43.760 --> 00:18:45.680]   For the humanities and social sciences people,
+[00:18:45.680 --> 00:18:48.240]   I mean, obviously the question of what we do instead is a big one,
+[00:18:48.240 --> 00:18:51.760]   but just the essay, the essay as an assessment method
+[00:18:51.760 --> 00:18:54.720]   for people who are doing courses that are primarily essay-based,
+[00:18:54.720 --> 00:18:58.240]   is it dead? Is it worth saving?
+[00:18:59.680 --> 00:19:01.520]   Do you still have a belief in essay-based learning?
+[00:19:01.520 --> 00:19:02.720]   Yeah, it should be safe.
+[00:19:02.720 --> 00:19:04.640]   It should be safe, but I'm interested why?
+[00:19:04.640 --> 00:19:06.400]   Tell me what the value of it is for you.
+[00:19:06.400 --> 00:19:08.960]   When I do essays, I find them to be an absolute bore.
+[00:19:08.960 --> 00:19:14.480]   They are very annoying, but they just teach you to sit with something
+[00:19:14.480 --> 00:19:18.240]   and sit with it and keep sitting with it until you get absolutely sick of it.
+[00:19:18.240 --> 00:19:21.600]   Going through readings, figuring out what readings work, what don't work,
+[00:19:21.600 --> 00:19:23.360]   constantly referring back to questions.
+[00:19:24.160 --> 00:19:28.400]   The whole process, I was saying that we're all geared towards an outcome now.
+[00:19:28.400 --> 00:19:30.880]   We're unhealthily obsessed with efficiency, the whole world is.
+[00:19:31.520 --> 00:19:33.120]   You've just got to sit down and be patient.
+[00:19:36.080 --> 00:19:39.840]   Most of us acknowledge that students will need to learn to work with AI
+[00:19:39.840 --> 00:19:42.480]   in some way to be prepared for the modern world.
+[00:19:43.040 --> 00:19:45.760]   There's simply too much AI out there to ignore.
+[00:19:46.960 --> 00:19:50.320]   But where to draw the line? That is the million dollar question.
+[00:19:51.280 --> 00:19:54.320]   And it's an area where most academics seem to be more cautious
+[00:19:54.320 --> 00:19:56.640]   and skeptical than university management.
+[00:19:57.680 --> 00:20:01.840]   LSE, Northumbria, Kent, Leicester, among many others,
+[00:20:01.840 --> 00:20:04.960]   have already announced plans to work with AI companies
+[00:20:04.960 --> 00:20:08.160]   to deliver AI services to their students and their teachers.
+[00:20:09.120 --> 00:20:13.040]   One of the most prominent and ambitious of these is the self-described
+[00:20:13.040 --> 00:20:17.360]   world-first partnership between Microsoft and the University of Manchester.
+[00:20:18.000 --> 00:20:22.400]   65,000 staff and students will receive access and training
+[00:20:22.400 --> 00:20:25.600]   for Copilot, Microsoft's generative AI offering.
+[00:20:27.600 --> 00:20:28.560]   My name's Duncan Iveson.
+[00:20:28.560 --> 00:20:31.360]   I'm president and vice chancellor at the University of Manchester.
+[00:20:31.360 --> 00:20:36.800]   Very basically, our students will get access for free to the,
+[00:20:36.800 --> 00:20:42.400]   as it were, full fat version of Copilot and its various evolutions from there.
+[00:20:42.400 --> 00:20:47.520]   They also get access to all the training and support that we're putting in place.
+[00:20:48.400 --> 00:20:52.400]   What's important, and our students have really pushed us on this for good reason,
+[00:20:52.400 --> 00:20:56.800]   is they want to be involved from the beginning in helping to co-design that training,
+[00:20:56.800 --> 00:20:59.520]   to help us land the training and support in the appropriate way.
+[00:21:00.080 --> 00:21:02.080]   And so they're going to get access to all that.
+[00:21:02.800 --> 00:21:07.920]   I watched the video that you made when the rollout of the partnership happened.
+[00:21:07.920 --> 00:21:11.040]   And you said something, and apologies if I'm paraphrasing you incorrectly,
+[00:21:11.040 --> 00:21:15.360]   said something like, you know, in the era of AI, these kind of fundamentally human skills,
+[00:21:15.360 --> 00:21:19.280]   things like, you know, creative reasoning, problem solving,
+[00:21:19.280 --> 00:21:21.440]   they're going to become even more important.
+[00:21:21.440 --> 00:21:27.360]   I know that there are those who fear that amid the sort of mass uptake of AI,
+[00:21:27.360 --> 00:21:29.120]   those skills are under threat.
+[00:21:29.120 --> 00:21:32.640]   How do we safeguard the kind of teaching and learning around those
+[00:21:32.640 --> 00:21:35.120]   sort of quote unquote fundamentally human skills?
+[00:21:35.120 --> 00:21:36.880]   I think that is the question.
+[00:21:36.880 --> 00:21:39.440]   That is the question, if I can put it that way.
+[00:21:39.440 --> 00:21:43.760]   And it's something I'm quite passionate about.
+[00:21:43.760 --> 00:21:50.400]   So LLMs don't think, human beings think.
+[00:21:51.120 --> 00:21:57.600]   LLMs are unbelievably powerful, predictive pattern recognition machines.
+[00:21:57.600 --> 00:22:02.240]   And they're getting better and more nuanced and more extraordinary almost every week.
+[00:22:03.120 --> 00:22:06.160]   But in my view, they don't think, human beings think.
+[00:22:06.720 --> 00:22:11.680]   So we must continue to remember and focus on helping our students
+[00:22:12.640 --> 00:22:14.800]   think and learning how to think.
+[00:22:14.800 --> 00:22:20.160]   We now have to teach our students to think, but also think with the machine, as it were.
+[00:22:20.160 --> 00:22:24.000]   But then at the same time, we have to help them think against the machine,
+[00:22:24.000 --> 00:22:26.640]   to challenge the machine, to criticize the machine.
+[00:22:26.640 --> 00:22:30.320]   I asked Duncan what assessments at Manchester might look like going forward
+[00:22:30.320 --> 00:22:33.360]   with AI so thoroughly integrated into student life.
+[00:22:33.360 --> 00:22:34.960]   This is a really big challenge.
+[00:22:36.000 --> 00:22:38.720]   You know, how do we assess our students in the age of AI?
+[00:22:38.720 --> 00:22:42.720]   I don't think developing even more sophisticated versions of
+[00:22:42.720 --> 00:22:44.800]   plagiarism detection software is the answer.
+[00:22:44.800 --> 00:22:48.240]   I mean, the thing we're trying to work through at Manchester, at least, is,
+[00:22:48.240 --> 00:22:51.760]   you know, imagine a swimming pool and you've got different lanes.
+[00:22:51.760 --> 00:22:56.240]   I think we're imagining that there'll be different lanes of assessment, right?
+[00:22:56.240 --> 00:23:00.160]   So there'll be one lane where it's a piece of paper and a pencil
+[00:23:00.160 --> 00:23:02.320]   and you figure it out in the classroom.
+[00:23:02.320 --> 00:23:04.800]   You know, we turn the Wi-Fi off or whatever.
+[00:23:05.440 --> 00:23:08.640]   Another lane might be full LLM access.
+[00:23:08.640 --> 00:23:11.840]   You can use the LLM, but the whole point is to then critique it,
+[00:23:12.800 --> 00:23:15.760]   to tell us what you've learned from the LLM and then break it down
+[00:23:15.760 --> 00:23:20.960]   and challenge it and sort of display the reasoning you went through to do that.
+[00:23:20.960 --> 00:23:23.680]   And then there may be variations of those lanes.
+[00:23:23.680 --> 00:23:28.880]   So we're, our first set of guidelines sort of takes roughly, you know, that approach.
+[00:23:28.880 --> 00:23:32.080]   But I think this is going to be an ongoing debate.
+[00:23:32.080 --> 00:23:38.640]   - Do we have a choice as educators, do we have a choice about whether we integrate AI into
+[00:23:38.640 --> 00:23:41.040]   the student experience, into student learning?
+[00:23:41.040 --> 00:23:45.920]   Is it an exciting opportunity or is it an inevitability that we simply have to meet?
+[00:23:45.920 --> 00:23:47.360]   - So we absolutely have a choice.
+[00:23:48.240 --> 00:23:52.720]   And if I can be a bit philosophical about it, we have to have a choice
+[00:23:52.720 --> 00:23:59.600]   because we have to preserve human agency in amongst the technology that surrounds us.
+[00:23:59.600 --> 00:24:05.760]   So I think universities have to be the places where that choice is asserted.
+[00:24:05.760 --> 00:24:10.800]   A lot of the language of inevitability comes from people who have a lot to gain
+[00:24:10.800 --> 00:24:13.920]   from the technology being taken up in particular ways.
+[00:24:14.480 --> 00:24:18.240]   But if we don't think we have a choice, we're kind of giving up
+[00:24:18.240 --> 00:24:21.680]   and we're kind of letting the machine think for us.
+[00:24:21.680 --> 00:24:23.760]   And that's not something we can really allow.
+[00:24:23.760 --> 00:24:30.240]   - Students are navigating mixed messages about AI with incredibly high stakes and very little
+[00:24:30.240 --> 00:24:35.600]   guidance. They're being told AI is the future, but don't you dare use it.
+[00:24:35.600 --> 00:24:40.240]   You need to be fluent in AI, but you also need to be able to function without it.
+[00:24:40.240 --> 00:24:45.280]   AI can't be trusted, but also we're building it in to almost every aspect of your education.
+[00:24:45.280 --> 00:24:48.480]   - You look at who's in charge of these AI companies, it's a tool to make
+[00:24:48.480 --> 00:24:50.720]   a certain number of billionaires a lot of money.
+[00:24:50.720 --> 00:24:53.680]   - I'm seeing a lot of nods in response to that one.
+[00:24:53.680 --> 00:24:58.800]   - Yeah. And you know, I'm not saying at all that the creation or pushing of AI is malicious,
+[00:24:58.800 --> 00:25:02.000]   but the results of it are the cost is passed down to the consumer.
+[00:25:02.560 --> 00:25:06.320]   It becomes a very expensive affair and it's used to make billionaires richer.
+[00:25:06.320 --> 00:25:09.040]   So getting students on board with that is very difficult.
+[00:25:09.040 --> 00:25:13.040]   - It wasn't us. It wasn't us as students or, you know, it wasn't the bottom who went,
+[00:25:13.040 --> 00:25:15.920]   "We really want AI because it's really going to help us get to where you guys are.
+[00:25:15.920 --> 00:25:19.360]   We're going to get, we really want billions and billions and billions of dollars."
+[00:25:19.360 --> 00:25:20.800]   - Squashing creativity, doesn't it?
+[00:25:20.800 --> 00:25:23.120]   - Where's the push coming from, if not from the students?
+[00:25:23.120 --> 00:25:23.920]   - Yeah, yeah, yeah.
+[00:25:23.920 --> 00:25:25.920]   - No, I'm asking. I'm genuinely curious.
+[00:25:25.920 --> 00:25:29.600]   - We've been pushed down. We're being told we need to use this kind of stuff.
+[00:25:29.600 --> 00:25:32.240]   - By your teachers, by the university, by-
+[00:25:32.240 --> 00:25:36.720]   - I think we think of the big other, but like generally the big other,
+[00:25:36.720 --> 00:25:40.800]   the big people who are running countries, especially United States.
+[00:25:40.800 --> 00:25:45.520]   - Like I worry that like when I Google something and there's an AI overview
+[00:25:45.520 --> 00:25:49.440]   that I've forgotten to turn off, I'm like showing the company
+[00:25:49.440 --> 00:25:52.080]   that like there's demand for that kind of thing.
+[00:25:52.080 --> 00:25:53.520]   - But that's the thing, they're pushing it on you.
+[00:25:53.520 --> 00:25:54.880]   If it's already coming up when you haven't even used it.
+[00:25:54.880 --> 00:25:56.800]   - You shouldn't feel bad for that. You shouldn't feel bad.
+[00:26:00.000 --> 00:26:03.200]   - One thing is clear to me. We can't get to a place
+[00:26:03.200 --> 00:26:06.240]   where students have a healthier relationship with generative AI
+[00:26:06.240 --> 00:26:08.720]   without solving far deeper problems.
+[00:26:09.600 --> 00:26:11.760]   As public funding has dwindled away,
+[00:26:11.760 --> 00:26:15.200]   attending university has been reduced to an exercise in consumption.
+[00:26:16.160 --> 00:26:19.920]   Universities are also struggling to stay afloat financially,
+[00:26:19.920 --> 00:26:21.760]   to defend their role in society,
+[00:26:21.760 --> 00:26:24.400]   and to articulate their value to prospective students.
+[00:26:25.120 --> 00:26:29.120]   As I see it, generative AI tools can't solve that crisis
+[00:26:29.120 --> 00:26:30.720]   and are deepening it in real time.
+[00:26:31.840 --> 00:26:35.120]   Generative AI tools were not invented with education in mind.
+[00:26:35.760 --> 00:26:37.680]   The technology came first,
+[00:26:37.680 --> 00:26:40.240]   and we searched for the problems that it could solve second.
+[00:26:41.600 --> 00:26:46.800]   Across all my conversations with students, lecturers, and university administrators,
+[00:26:46.800 --> 00:26:49.200]   I keep hearing a similar refrain.
+[00:26:49.200 --> 00:26:50.000]   - AI is here.
+[00:26:50.000 --> 00:26:52.560]   - AI is not going away. AI is here to stay.
+[00:26:53.760 --> 00:26:58.720]   - I admire my colleagues who are trying to teach students about and with AI
+[00:26:58.720 --> 00:27:01.920]   in ways that support rather than threaten their learning.
+[00:27:02.880 --> 00:27:08.240]   Like Duncan Iverson, I agree that we need to have a real choice when it comes to AI.
+[00:27:09.440 --> 00:27:13.280]   But there's a sense that the ubiquity of this technology in education
+[00:27:13.280 --> 00:27:14.800]   has been chosen for us.
+[00:27:15.440 --> 00:27:18.400]   And that the best we can hope for is to control the damage
+[00:27:18.400 --> 00:27:20.240]   and start hunting for silver linings.
+[00:27:21.280 --> 00:27:22.880]   But here's the sticking point for me.
+[00:27:23.680 --> 00:27:27.200]   Even with a silver lining, a cloud is still a cloud.

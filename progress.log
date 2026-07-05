@@ -1,0 +1,15 @@
+[docagent] Creating backend and loading configuration
+[docagent] Loading input file samples/currently.txt
+[docagent] Chunking document
+[docagent] Created 4 chunk(s)
+[docagent] Storing document and chunks
+[docagent] Classifying document
+{
+  "error": "classification_error",
+  "message": "The system could not parse a valid classification result.",
+  "suggested_actions": [
+    "Use the generic pipeline.",
+    "Manually select a document type.",
+    "Retry with a JSON-capable model."
+  ]
+}
