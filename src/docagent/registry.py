@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from autoscribe.models import DocumentType, PipelineDefinition
+from docagent.models import DocumentType, PipelineDefinition
 
 
 PIPELINES: dict[str, PipelineDefinition] = {

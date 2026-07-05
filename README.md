@@ -1,4 +1,4 @@
-# autoscribe
+# DocAgent
 
 LLM-based document type classification and adaptive summarisation pipeline.
 
@@ -26,10 +26,10 @@ servers:
 
 ```bash
 export OPENAI_API_KEY=local-not-used
-export AUTOSCRIBE_BACKEND=openai-compatible
-export AUTOSCRIBE_BASE_URL=http://127.0.0.1:8033/v1
-export AUTOSCRIBE_MODEL=/models/Qwen_Qwen3-4B-Instruct-2507-Q4_K_M.gguf
-export AUTOSCRIBE_JSON_DECODING_MODE=grammar
+export DOCAGENT_BACKEND=openai-compatible
+export DOCAGENT_BASE_URL=http://127.0.0.1:8033/v1
+export DOCAGENT_MODEL=/models/Qwen_Qwen3-4B-Instruct-2507-Q4_K_M.gguf
+export DOCAGENT_JSON_DECODING_MODE=grammar
 
 docagent classify samples/policy.txt
 ```
@@ -37,7 +37,7 @@ docagent classify samples/policy.txt
 Other modes are available for different servers:
 
 ```bash
-export AUTOSCRIBE_JSON_DECODING_MODE=response_format  # OpenAI-style JSON object mode
-export AUTOSCRIBE_JSON_DECODING_MODE=both             # send grammar and response_format
-export AUTOSCRIBE_JSON_DECODING_MODE=off              # prompt-only JSON guidance
+export DOCAGENT_JSON_DECODING_MODE=response_format  # OpenAI-style JSON object mode
+export DOCAGENT_JSON_DECODING_MODE=both             # send grammar and response_format
+export DOCAGENT_JSON_DECODING_MODE=off              # prompt-only JSON guidance
 ```

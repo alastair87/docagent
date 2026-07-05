@@ -6,12 +6,12 @@ from typing import Optional
 
 import typer
 
-from autoscribe.backends import make_backend
-from autoscribe.config import load_config
-from autoscribe.errors import AutoscribeError
-from autoscribe.input import load_document
-from autoscribe.orchestrator import Orchestrator
-from autoscribe.storage import RunStore
+from docagent.backends import make_backend
+from docagent.config import load_config
+from docagent.errors import DocAgentError
+from docagent.input import load_document
+from docagent.orchestrator import Orchestrator
+from docagent.storage import RunStore
 
 app = typer.Typer(help="Classify and summarise documents with type-aware LLM pipelines.")
 
@@ -57,7 +57,7 @@ def ingest(
         path = store.save_document(document)
         _progress(verbose, f"Completed ingest at {path}")
         typer.echo(json.dumps({"document_id": document.document_id, "path": str(path)}, indent=2))
-    except AutoscribeError as exc:
+    except DocAgentError as exc:
         _fail(exc)
 
 
@@ -86,7 +86,7 @@ def classify(
             f"recommended pipeline {result.recommended_pipeline}",
         )
         typer.echo(result.model_dump_json(indent=2))
-    except AutoscribeError as exc:
+    except DocAgentError as exc:
         _fail(exc)
     except ValueError as exc:
         _fail_message(str(exc))
@@ -129,7 +129,7 @@ def summarise(
                 indent=2,
             )
         )
-    except AutoscribeError as exc:
+    except DocAgentError as exc:
         _fail(exc)
     except ValueError as exc:
         _fail_message(str(exc))
@@ -152,13 +152,13 @@ def export(
         destination = RunStore(Path(cfg.data_dir)).export(run_id, output_format)
         _progress(verbose, f"Completed export at {destination}")
         typer.echo(str(destination))
-    except AutoscribeError as exc:
+    except DocAgentError as exc:
         _fail(exc)
     except (ValueError, FileNotFoundError) as exc:
         _fail_message(str(exc))
 
 
-def _fail(exc: AutoscribeError) -> None:
+def _fail(exc: DocAgentError) -> None:
     typer.echo(json.dumps(exc.to_dict(), indent=2), err=True)
     raise typer.Exit(code=1)
 

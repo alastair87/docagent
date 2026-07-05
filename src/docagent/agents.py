@@ -4,11 +4,11 @@ from typing import Any
 
 from pydantic import ValidationError
 
-from autoscribe.backends import LLMBackend, parse_json_response
-from autoscribe.errors import BackendError, ClassificationError
-from autoscribe.models import AgentInput, AgentOutput, AppConfig, ClassificationResult, Document, DocumentType, SourceReference
-from autoscribe.prompts import CLASSIFIER_SYSTEM_PROMPT, agent_system_prompt, agent_user_prompt, classifier_user_prompt
-from autoscribe.registry import DOCUMENT_TYPE_TO_PIPELINE
+from docagent.backends import LLMBackend, parse_json_response
+from docagent.errors import BackendError, ClassificationError
+from docagent.models import AgentInput, AgentOutput, AppConfig, ClassificationResult, Document, DocumentType, SourceReference
+from docagent.prompts import CLASSIFIER_SYSTEM_PROMPT, agent_system_prompt, agent_user_prompt, classifier_user_prompt
+from docagent.registry import DOCUMENT_TYPE_TO_PIPELINE
 
 
 def classify_document(

@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "autoscribe"
+name = "docagent"
 version = "0.1.0"
 description = "LLM-based document type classifier and adaptive summarisation pipeline."
 readme = "README.md"
@@ -21,7 +21,7 @@ dev = [
 ]
 
 [project.scripts]
-docagent = "autoscribe.cli:app"
+docagent = "docagent.cli:app"
 
 [tool.setuptools.packages.find]
 where = ["src"]

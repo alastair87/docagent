@@ -2,8 +2,8 @@ from __future__ import annotations
 
 from typing import Any
 
-from autoscribe.models import AgentOutput, AppConfig, ClassificationResult, Document, PipelineDefinition, PipelineRun
-from autoscribe.prompts import AGENT_PROMPT_VERSION, CLASSIFIER_PROMPT_VERSION
+from docagent.models import AgentOutput, AppConfig, ClassificationResult, Document, PipelineDefinition, PipelineRun
+from docagent.prompts import AGENT_PROMPT_VERSION, CLASSIFIER_PROMPT_VERSION
 
 
 ADVICE_BOUNDARY_TYPES = {

@@ -4,8 +4,8 @@ import hashlib
 import json
 from pathlib import Path
 
-from autoscribe.errors import InputError
-from autoscribe.models import Document, DocumentMetadata
+from docagent.errors import InputError
+from docagent.models import Document, DocumentMetadata
 
 
 def load_document(path: Path, metadata_path: Path | None = None) -> Document:

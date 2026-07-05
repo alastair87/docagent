@@ -2,9 +2,9 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from autoscribe.backends import GENERIC_JSON_GRAMMAR, OpenAICompatibleBackend, _extract_message_content
-from autoscribe.config import load_config
-from autoscribe.models import AppConfig
+from docagent.backends import GENERIC_JSON_GRAMMAR, OpenAICompatibleBackend, _extract_message_content
+from docagent.config import load_config
+from docagent.models import AppConfig
 
 
 def test_grammar_mode_sends_grammar_only():
@@ -43,8 +43,8 @@ def test_no_schema_sends_no_json_decoding_controls():
 
 
 def test_json_decoding_mode_loads_from_environment(monkeypatch):
-    monkeypatch.setenv("AUTOSCRIBE_JSON_DECODING_MODE", "both")
-    monkeypatch.setenv("AUTOSCRIBE_JSON_GRAMMAR", 'root ::= "{}"')
+    monkeypatch.setenv("DOCAGENT_JSON_DECODING_MODE", "both")
+    monkeypatch.setenv("DOCAGENT_JSON_GRAMMAR", 'root ::= "{}"')
 
     config = load_config()
 
@@ -53,7 +53,7 @@ def test_json_decoding_mode_loads_from_environment(monkeypatch):
 
 
 def test_json_decoding_mode_loads_from_config_file(tmp_path: Path):
-    config_path = tmp_path / "autoscribe.json"
+    config_path = tmp_path / "docagent.json"
     config_path.write_text('{"json_decoding_mode": "response_format"}', encoding="utf-8")
 
     config = load_config(config_path)

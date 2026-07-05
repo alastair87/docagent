@@ -2,9 +2,9 @@ from pathlib import Path
 
 import pytest
 
-from autoscribe.chunking import chunk_document
-from autoscribe.errors import InputError
-from autoscribe.input import load_document
+from docagent.chunking import chunk_document
+from docagent.errors import InputError
+from docagent.input import load_document
 
 
 def test_load_text_document(tmp_path: Path):
