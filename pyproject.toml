@@ -26,6 +26,9 @@ docagent = "docagent.cli:app"
 [tool.setuptools.packages.find]
 where = ["src"]
 
+[tool.setuptools.package-data]
+"docagent.prompt_templates" = ["*.md", "agents/*.md"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]
